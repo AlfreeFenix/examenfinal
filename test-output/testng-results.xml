@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-05-05T19:08:21 BOT" name="Default suite" finished-at="2025-05-05T19:09:03 BOT" duration-ms="41353">
+    <groups>
+    </groups>
+    <test started-at="2025-05-05T19:08:21 BOT" name="Default test" finished-at="2025-05-05T19:09:03 BOT" duration-ms="41353">
+      <class name="testng.TestShop">
+        <test-method is-config="true" signature="before()[pri:0, instance:testng.TestShop@3c9754d8]" started-at="2025-05-05T19:08:21 BOT" name="before" finished-at="2025-05-05T19:08:30 BOT" duration-ms="8343" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="testAgregarProducto(java.lang.String)[pri:0, instance:testng.TestShop@3c9754d8]" started-at="2025-05-05T19:08:30 BOT" name="testAgregarProducto" description="Agregar un producto al carrito" data-provider="productos" finished-at="2025-05-05T19:08:37 BOT" duration-ms="7084" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[add__21016]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAgregarProducto -->
+        <test-method signature="testAgregarProducto(java.lang.String)[pri:0, instance:testng.TestShop@3c9754d8]" started-at="2025-05-05T19:08:37 BOT" name="testAgregarProducto" description="Agregar un producto al carrito" data-provider="productos" finished-at="2025-05-05T19:08:41 BOT" duration-ms="4104" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[add__19740]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAgregarProducto -->
+        <test-method signature="testAgregarProducto(java.lang.String)[pri:0, instance:testng.TestShop@3c9754d8]" started-at="2025-05-05T19:08:41 BOT" name="testAgregarProducto" description="Agregar un producto al carrito" data-provider="productos" finished-at="2025-05-05T19:08:46 BOT" duration-ms="4825" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[add__21018]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAgregarProducto -->
+        <test-method signature="validarSubtotalCarrito()[pri:0, instance:testng.TestShop@3c9754d8]" started-at="2025-05-05T19:08:46 BOT" name="validarSubtotalCarrito" description="Validar que el subtotal coincide con la suma de productos" finished-at="2025-05-05T19:08:57 BOT" depends-on-methods="testng.TestShop.testAgregarProducto" duration-ms="11365" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validarSubtotalCarrito -->
+        <test-method is-config="true" signature="after()[pri:0, instance:testng.TestShop@3c9754d8]" started-at="2025-05-05T19:08:57 BOT" name="after" finished-at="2025-05-05T19:09:03 BOT" duration-ms="5432" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- testng.TestShop -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
