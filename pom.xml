@@ -3,4 +3,26 @@
   <groupId>com.cegos</groupId>
   <artifactId>examenfinal</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+      <dependencies>
+  	<dependency>
+  		<groupId>org.seleniumhq.selenium</groupId>
+  		<artifactId>selenium-java</artifactId>
+  		<version>4.31.0</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>org.seleniumhq.selenium</groupId>
+  		<artifactId>selenium-chrome-driver</artifactId>
+  		<version>4.31.0</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>io.github.bonigarcia</groupId>
+  		<artifactId>webdrivermanager</artifactId>
+  		<version>6.0.1</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>org.testng</groupId>
+  		<artifactId>testng</artifactId>
+  		<version>7.11.0</version>
+  	</dependency>
+    </dependencies>
 </project>
