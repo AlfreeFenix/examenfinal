@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-05-06T20:19:18 BOT" name="Default suite" finished-at="2025-05-06T20:20:22 BOT" duration-ms="64360">
+    <groups>
+    </groups>
+    <test started-at="2025-05-06T20:19:18 BOT" name="Default test" finished-at="2025-05-06T20:20:22 BOT" duration-ms="64360">
+      <class name="examenfinal.casaIdeas">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:examenfinal.casaIdeas@1f2586d6]" started-at="2025-05-06T20:19:18 BOT" name="setUp" finished-at="2025-05-06T20:19:20 BOT" duration-ms="2187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testAgregarProductosAlCarrito()[pri:0, instance:examenfinal.casaIdeas@1f2586d6]" started-at="2025-05-06T20:19:20 BOT" name="testAgregarProductosAlCarrito" finished-at="2025-05-06T20:19:52 BOT" duration-ms="31980" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAgregarProductosAlCarrito -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:examenfinal.casaIdeas@1f2586d6]" started-at="2025-05-06T20:19:52 BOT" name="tearDown" finished-at="2025-05-06T20:20:22 BOT" duration-ms="30167" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- examenfinal.casaIdeas -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
